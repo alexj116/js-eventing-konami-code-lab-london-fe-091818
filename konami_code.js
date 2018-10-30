@@ -7,7 +7,9 @@ function init() {
 
 function onKeyDownHandler(e) {
   const key = parseInt(e.detail || e.which);
- 
+  console.log(key)
+  console.log(index
+  )
   if (key === alphabet[index]) {
     index++;
  
